@@ -1,0 +1,14 @@
+.attribute {
+  background: #f7f7f7;
+  padding: 2rem 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.attribute p {
+  font-size: 0.75rem;
+  line-height: 20px;
+}
+.attribute h4 {
+  margin: 1rem 0;
+}

@@ -1,0 +1,17 @@
+.grid-item {
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-image: url(../../../../assets//grid//dear.png);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid-item {
+    height: 200px;
+  }
+}

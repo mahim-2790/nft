@@ -1,0 +1,86 @@
+.body-margin {
+  margin: 2.5rem 6rem 0 6rem;
+}
+
+.quote-div {
+  display: flex;
+  align-items: center;
+}
+
+.quote-img {
+  height: 450px;
+  flex-basis: 55%;
+}
+
+.quote-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.quote-message {
+  height: 450px;
+  background: #f7f7f7;
+  padding: 4rem;
+  flex-basis: 45%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-message h2 {
+  line-height: 48px;
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .quote-div {
+    flex-direction: column;
+  }
+  .body-margin {
+    margin: 2.5rem 2.5rem 0 2.5rem;
+  }
+  .quote-message {
+    height: 400px;
+    padding: 2rem;
+  }
+  .quote-message h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+  }
+  .quote-message p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .quote-img {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .quote-div {
+    flex-direction: column;
+  }
+  .body-margin {
+    margin: 2.5rem 2rem 0 2rem;
+  }
+  .quote-message {
+    height: 400px;
+    padding: 2rem;
+  }
+  .quote-message h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+  }
+  .quote-message p {
+    font-size: 1rem;
+  }
+  .quote-img {
+    margin-bottom: 0;
+  }
+}

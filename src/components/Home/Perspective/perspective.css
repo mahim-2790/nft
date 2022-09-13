@@ -1,0 +1,24 @@
+.painting-detail-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.painting-detail {
+  text-align: start;
+}
+
+.art-detail {
+  margin: 0.35rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* text-align: start; */
+}
+
+.art-detail h4 {
+  line-height: 0.75rem;
+}
+
+.painting-name {
+  text-overflow: ellipsis;
+}

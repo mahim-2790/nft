@@ -1,0 +1,42 @@
+.heading-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.artist-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.artist-img {
+  background-image: url(../../../assets/grid/dearfox.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.height {
+  height: 250px;
+}
+
+.detail-text {
+  color: white;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  padding: 0.9rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .artist-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .artist-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+}
